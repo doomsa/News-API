@@ -1,0 +1,20 @@
+{
+  "name": "news-api-service",
+  "version": "1.0.0",
+  "description": "A simple API service that interacts with the GNews API to fetch articles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doomsa/News-API/new/main"
+  },
+  "author": "[YOUR_NAME]",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "node-cache": "^5.1.2"
+  }
+}
